@@ -1,11 +1,13 @@
 h1 {
     text-align:center;
     background-color: purple;
+    margin: 0;
 }
 body {
     background-color: black;
     color: white;
     text-align: center;
+    margin:0;
 
 }
 h2 {
@@ -16,21 +18,26 @@ h2 {
     color: purple;
 
 }
+p {
+    background-color: purple;
+    color: white;
+}
 .gay {
-    background-color: pink;
     text-align: center;
-    width: 150px;
-    height: 60px;
-    margin: 20px;
-    padding:10px;
-    color: black;
+    color: purple;
+    background-color: pink;
+    border: solid 1px purple;
+    margin: 5px;
+    padding: 5px;
+    font-style: italic;
+    font-weight: bold;
 }
 .notgay {
-    background-color: green;
     text-align: center;
-    width: 150px;
-    height: 60px;
-    margin: 20px;
-    padding:10px;
-    color: black;
+    color: white;
+    background-color: green;
+    border: solid 1px brown;
+    margin:5px;
+    padding: 5px;
+    font-weight: bold;
 }
